@@ -1,0 +1,53 @@
+
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Écran Dessinateur</title>
+  <link rel="stylesheet" href="dessinateur.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="images/avatar-girl.png" class="avatar">
+      <div class="info">
+        <p class="team">ÉQUIPE LILY</p>
+        <p class="role">DESSINATEUR</p>
+      </div>
+      <button class="close">×</button>
+    </header>
+
+    <div class="word-box">
+      <input type="text" value="Pomme" disabled>
+      <div class="timer-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+
+    <div class="canvas-container">
+      <canvas id="drawingCanvas" width="300" height="300"></canvas>
+
+      <div class="tools">
+        <button id="penTool">✏️</button>
+        <button id="eraserTool">🧽</button>
+      </div>
+
+      <div class="colors">
+        <button class="color" data-color="#e084f0" style="background:#e084f0;"></button>
+        <button class="color" data-color="#00aaff" style="background:#00aaff;"></button>
+        <button class="color" data-color="#55bb33" style="background:#55bb33;"></button>
+        <button class="color" data-color="#f9e864" style="background:#f9e864;"></button>
+        <button class="color" data-color="#faaa2d" style="background:#faaa2d;"></button>
+        <button class="color" data-color="#ff4d4d" style="background:#ff4d4d;"></button>
+        <button class="color" data-color="#444" style="background:#444;"></button>
+      </div>
+    </div>
+
+    <button class="ok-btn">OK</button>
+  </div>
+
+  <script src="dessinateur.js"></script>
+</body>
+</html>
