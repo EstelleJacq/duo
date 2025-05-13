@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="changer boutton2" id="boutton2">close</button>
+    <h1 class="titre"> équipe Béa</h1>
+    <img class="image"
+    src="Bea_img.svg"
+    alt="image Béa">
+    <div
+    input type="range" min="400" max="900" value="600" id="slider">
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    <button class="changer boutton2" id="boutton2">bouton</button>
+    ;
+</body>
